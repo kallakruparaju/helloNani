@@ -5,7 +5,7 @@ def call(branchname,reponame){
     pipeline{
         agent any
         stages{
-            stage{
+            stage("HelloNani"){
                 steps{
                     sh "echo hello"
                 }
