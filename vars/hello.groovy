@@ -1,3 +1,5 @@
-def call(name){
-    git branch: 'main', url: 'https://github.com/Akashnani-star/test-jenkins.git'
+def call(branchname,reponame){
+    print branchname
+    println reponame
+    git branch: "${branchname}", url: "${reponame}"
 }
