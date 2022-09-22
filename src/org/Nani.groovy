@@ -4,6 +4,6 @@ class Nani{
     println "Nani"
   }
   def sayNani(){
-    echo 'Hello'
+    echo 'Nani from sayNani()'
   }
 }
