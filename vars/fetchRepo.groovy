@@ -6,7 +6,7 @@ def call(num){
                 stage("HelloNani"){
                     steps{
                         sh "echo num is $num"
-                        def res = libraryResource "hello.txt" 
+                        def res = libraryResource 'hello.txt'
                         println res
                     }
                 }
