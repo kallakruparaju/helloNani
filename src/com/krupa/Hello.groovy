@@ -3,4 +3,7 @@ class Hello{
   Hello(){
     println "Hello"
   }
+  def sayHello(){
+    println "hello from sayHello()"
+  }
 }
