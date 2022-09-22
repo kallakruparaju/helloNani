@@ -1,9 +1,6 @@
 package com.krupa
 class Hello{
-  Hello(){
-    println "Hello"
-  }
-  def sayHello(){
-    println "hello from sayHello()"
+  def sayHello(sc){
+    sc.println "hello from sayHello()"
   }
 }
